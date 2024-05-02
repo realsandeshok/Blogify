@@ -1,6 +1,5 @@
 import React from "react";
 import CardList from "@/components/CardList";
-import Menu from "@/components/Menu";
 
 const BlogPage = ({ searchParams }) => {
   const page = parseInt(searchParams.page) || 1;
@@ -15,7 +14,7 @@ const BlogPage = ({ searchParams }) => {
       </div>
       <div className="content flex gap-10">
         <CardList page={page} cat={cat} />
-        <Menu />
+        {/* <Menu /> */}
       </div>
     </div>
   );

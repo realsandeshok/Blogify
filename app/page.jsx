@@ -1,7 +1,6 @@
 import Featured from "../components/Featured";
 import CategoryList from "../components/CategoryList";
 import CardList from "../components/CardList";
-import Menu from "../components/Menu";
 import styles from "./homepage.module.css";
 
 export default function Home({ searchParams }) {
@@ -13,7 +12,7 @@ export default function Home({ searchParams }) {
       <CategoryList />
       <div className={styles.content}>
         <CardList page={page} />
-        <Menu />
+        {/* <Menu /> */}
       </div>
     </div>
   );

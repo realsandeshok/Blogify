@@ -20,6 +20,13 @@ body {
   overflow-x: hidden;
 }
 
+.dark {
+  --bg: #0f172a;
+  --textColor: #ddd;
+  --softBg: #1f273a;
+  --softTextColor: #a6a6a6;
+}
+
 .container {
   max-width: inherit;
   min-height: 100vh;
@@ -52,11 +59,7 @@ body {
     padding-right: 40px;
   }
 }
-@media screen and (max-width: 768px){
-  .wrapper{
-    max-width: 640px;
-  }
-}
+
 @media screen and (max-width: 640px){
   .wrapper{
     max-width: 475px;

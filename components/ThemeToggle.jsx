@@ -1,12 +1,25 @@
-import Image from "next/image";
-import React from "react";
+"use client";
+
+import React, { useContext } from "react";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import DarkModeIcon from "@mui/icons-material/DarkMode";
+import CircleIcon from "@mui/icons-material/Circle";
+import { ThemeContext } from "@/app/context/ThemeContext";
 
 export default function themeToggle() {
+  const { toggle, theme } = useContext(ThemeContext);
+
   return (
-    <div className="flex w-10 h-5 rounded-[40px] bg-black justify-between items-center relative">
-      <Image src="/moon.png" alt="" width={14} height={14} />
-      <div className="circle rounded-[40px] bg-white w-[15px] h-[15px] absolute left-[1px] "></div>
-      <Image src="/sun.png" alt="" width={14} height={14} />
+    <div
+      className="flex gap-2 p-[2px] rounded-[40px] bg-gray-800 justify-between items-center relative "
+      onClick={toggle}
+    >
+      <DarkModeIcon className="text-yellow-500" />
+      <CircleIcon
+        className="absolute text-white"
+        style={theme === "dark" ? { left: 1 } : { right: 1 }}
+      />
+      <LightModeIcon fontSize="small" className="text-yellow-500" />
     </div>
   );
 }

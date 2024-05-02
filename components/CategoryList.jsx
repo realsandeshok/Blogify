@@ -24,7 +24,7 @@ const CategoryList = async () => {
       <div className="categories flex flex-wrap justify-between gap-5">
         {data?.map((item) => (
           <Link
-            href="/blog?cat=style"
+            href={`/blog?cat=${item.slug}`}
             className={`${"flex items-center gap-3 w-[12%] h-16 justify-center rounded-xl xl:w-[20%] lg:w-[25%] md:w-[45%] sm:w-[100%] capitalize"} ${"bg-[#1f394731]"}`}
             key={item._id}
           >
