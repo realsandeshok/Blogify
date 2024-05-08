@@ -59,7 +59,7 @@ const Comments = ({ postSlug }) => {
           <span className="text-lg font-medium ">
             Login to Comment on the Post.
           </span>
-          <Link href="/login" className="pl-2 underline text-blue-700 text-lg">
+          <Link href="/login" className="pl-2 text-blue-700 text-lg">
             Login?
           </Link>
         </>
