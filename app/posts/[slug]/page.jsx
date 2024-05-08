@@ -42,7 +42,7 @@ const SinglePage = async ({ params }) => {
               <span className="username font-semibold text-xl">
                 {data?.user.name}
               </span>
-              <span className="date">02-11-03</span>
+              <span className="date">{data.createdAt.substring(0, 10)} </span>
             </div>
           </div>
         </div>
