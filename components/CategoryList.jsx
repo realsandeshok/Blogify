@@ -18,7 +18,7 @@ const CategoryList = async () => {
 
   return (
     <div className="">
-      <h1 className="mt-12 mb-6 mx-0 font-bold 2xl:text-[54px] xl:text-[38px] lg:text-[24px] md:text-[20px] sm:text-[20px]">
+      <h1 className="mt-12 mb-6 mx-0 font-bold text-5xl 2xl:text-[54px] xl:text-[38px] lg:text-[24px] md:text-[20px] sm:text-[20px]">
         Popular Categories
       </h1>
       <div className="categories flex flex-wrap justify-between gap-5">

@@ -55,7 +55,14 @@ const Comments = ({ postSlug }) => {
           </button>
         </div>
       ) : (
-        <Link href="/">Log in to write a comment</Link>
+        <>
+          <span className="text-lg font-medium ">
+            Login to Comment on the Post.
+          </span>
+          <Link href="/login" className="pl-2 underline text-blue-700 text-lg">
+            Login?
+          </Link>
+        </>
       )}
       <div className="comments mt-8">
         {isLoading

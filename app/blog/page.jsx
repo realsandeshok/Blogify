@@ -14,7 +14,6 @@ const BlogPage = ({ searchParams }) => {
       </div>
       <div className="content flex gap-10">
         <CardList page={page} cat={cat} />
-        {/* <Menu /> */}
       </div>
     </div>
   );
