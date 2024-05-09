@@ -23,7 +23,7 @@ import {
 
 const storage = getStorage(app);
 
-const page = () => {
+const Page = () => {
   const [file, setFile] = useState(null);
   const [media, setMedia] = useState("");
   const [open, setOpen] = useState(false);
@@ -194,4 +194,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

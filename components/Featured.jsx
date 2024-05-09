@@ -12,7 +12,7 @@ export default function Featured() {
         </div>
         <div className="text flex-1 flex flex-col gap-5">
           <h1 className="postTitle text-4xl font-semibold">
-            Why It's a Game-Changer for Personal and Professional Growth
+            Why It&apos;s a Game-Changer for Personal and Professional Growth
           </h1>
           <p className="postDescription text-2xl text-[var(--softTextColor)]">
             In an era dominated by digital communication, blogging stands as a
@@ -22,8 +22,8 @@ export default function Featured() {
             the myriad benefits awaiting those who dare to share their thoughts
             online. From honing your expertise to building a community, blogging
             offers a dynamic outlet for creativity and connection. Whether
-            you're a seasoned writer or just starting out, the advantages of
-            maintaining a blog are plentiful and transformative.
+            you&apos;re a seasoned writer or just starting out, the advantages
+            of maintaining a blog are plentiful and transformative.
           </p>
           {/* <button className="py-4 px-5 border-none rounded-md w-max bg-black text-white ">
             Read More

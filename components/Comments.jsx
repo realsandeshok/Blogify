@@ -44,7 +44,7 @@ const Comments = ({ postSlug }) => {
         <div className="write flex items-center justify-between gap-6">
           <textarea
             placeholder="write a comment"
-            className="comment w-full p-2 bg-slate-300 rounded-sm"
+            className="comment w-full p-2 rounded-sm text-[var(--textColor)]"
             onChange={(e) => setDesc(e.target.value)}
           />
           <button
@@ -83,7 +83,9 @@ const Comments = ({ postSlug }) => {
                     <span className="username font-medium">
                       {item.user.name}
                     </span>
-                    <span className="date text-[10px]">{item.createdAt}</span>
+                    <span className="date text-[10px]">
+                      {item.createdAt.substring(0, 10)}
+                    </span>
                   </div>
                 </div>
                 <p className="desc text-[15px] font-normal">{item.desc}</p>

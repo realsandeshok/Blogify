@@ -6,7 +6,7 @@ import DarkModeIcon from "@mui/icons-material/DarkMode";
 import CircleIcon from "@mui/icons-material/Circle";
 import { ThemeContext } from "@/app/context/ThemeContext";
 
-export default function themeToggle() {
+export default function ThemeToggle() {
   const { toggle, theme } = useContext(ThemeContext);
 
   return (

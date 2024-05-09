@@ -33,7 +33,7 @@ const Footer = async () => {
         <div className="list flex flex-col gap-3 font-light ">
           <span className="listTitle font-extrabold">Tags</span>
           {data?.slice(0, 2).map((item) => (
-            <Link href={`/blog?cat=${item.slug}`} className="capitalize">
+            <Link href={`/blog?cat=${item.slug}`} className="capitalize" key="">
               {item.title}
             </Link>
           ))}

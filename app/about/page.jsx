@@ -11,34 +11,34 @@ const page = () => {
         <div>
           At Blogify, we believe in empowering individuals to share their
           stories, ideas, and expertise with the world in a hassle-free manner.
-          Whether you're a seasoned blogger or just starting your journey, our
-          platform offers the tools and resources you need to create stunning,
-          professional-looking blogs with ease.
+          Whether you&apos;re a seasoned blogger or just starting your journey,
+          our platform offers the tools and resources you need to create
+          stunning, professional-looking blogs with ease.
         </div>
         <br />
         <div>
           Our mission at Blogify is to democratize blogging by making it
           accessible to everyone, regardless of their technical background or
           experience level. We understand that the process of setting up and
-          managing a blog can be daunting, which is why we've designed Blogify
-          to be user-friendly and intuitive. With our platform, you can focus on
-          what you do best – writing engaging content – while we take care of
-          the rest.
+          managing a blog can be daunting, which is why we&apos;ve designed
+          Blogify to be user-friendly and intuitive. With our platform, you can
+          focus on what you do best – writing engaging content – while we take
+          care of the rest.
         </div>
         <br />
         <div>
           What sets Blogify apart is our commitment to innovation and continuous
-          improvement. We're constantly exploring new features and technologies
-          to enhance the blogging experience for our users. Whether it's
-          integrating the latest design trends, optimizing performance, or
-          adding new functionality, we're dedicated to providing you with the
-          best possible blogging platform.
+          improvement. We&apos;re constantly exploring new features and
+          technologies to enhance the blogging experience for our users. Whether
+          it&apos;s integrating the latest design trends, optimizing
+          performance, or adding new functionality, we&apos;re dedicated to
+          providing you with the best possible blogging platform.
         </div>
         <br />
         <div>
           Join us on this exciting journey as we revolutionize the world of
-          blogging together. Whether you're looking to share your passion, grow
-          your audience, or build your brand, Blogify is here to help you
+          blogging together. Whether you&apos;re looking to share your passion,
+          grow your audience, or build your brand, Blogify is here to help you
           succeed. Start your blogging journey with us today and discover the
           endless possibilities that await!
         </div>

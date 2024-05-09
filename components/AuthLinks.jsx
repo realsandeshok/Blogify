@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 
-export default function authLinks() {
+export default function AuthLinks() {
   const [open, setOpen] = useState(false);
   const { status } = useSession();
   return (
